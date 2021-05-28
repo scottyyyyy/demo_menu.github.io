@@ -23,7 +23,7 @@
 	color: green !important;
 	-webkit-text-stroke: 1px white;
 	letter-spacing: .1rem;
-	text-shadow: .1rem .1rem .5rem black;
+	-- text-shadow: .1rem .1rem .5rem black;
 }
 
 img {
