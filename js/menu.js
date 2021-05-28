@@ -42,3 +42,12 @@ function myPizza() {
     x.style.display = "none";
   }
 }
+
+function myKids() {
+  var x = document.getElementById("kids");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
