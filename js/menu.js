@@ -24,3 +24,12 @@ function myMains() {
     x.style.display = "none";
   }
 }
+
+function myMeat() {
+  var x = document.getElementById("meat");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
