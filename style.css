@@ -26,6 +26,11 @@
 	text-shadow: .1rem .1rem .5rem black;
 }
 
+img {
+  max-width: 100%;
+  height auto; /* default */
+}
+
 @media (max-width: 575.98px) {
 	.card-columns {
 		column-count:1;
