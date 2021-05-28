@@ -1,0 +1,45 @@
+.card-columns {
+    column-count: 3;
+}
+
+.text-heading {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-size: 4rem;
+	color: #111111;
+}
+
+.menu-header-text {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-size: 3rem;
+	color: #111111;
+	text-align: center;
+}
+
+.caption h3 {
+	font-family: 'Pacifico', cursive;
+	font-size: 2.5rem;
+	color: white !important;
+	-webkit-text-stroke: 1px green;
+	letter-spacing: .1rem;
+	text-shadow: .1rem .1rem .5rem black;
+}
+
+@media (max-width: 575.98px) {
+	.card-columns {
+		column-count:1;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+	.card-columns {
+		column-count:2;
+	}
+}
+
+@media (min-width: 992px) {
+	.card-columns {
+		column-count:3;
+	}
+}
