@@ -20,7 +20,7 @@
 .caption h3 {
 	font-family: 'Pacifico', cursive;
 	font-size: 2.5rem;
-	color: white !important;
+	color: green !important;
 	-webkit-text-stroke: 1px green;
 	letter-spacing: .1rem;
 	text-shadow: .1rem .1rem .5rem black;
