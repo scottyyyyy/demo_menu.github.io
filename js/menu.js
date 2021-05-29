@@ -51,3 +51,12 @@ function myKids() {
     x.style.display = "none";
   }
 }
+
+function myDrinks() {
+  var x = document.getElementById("drinks");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
