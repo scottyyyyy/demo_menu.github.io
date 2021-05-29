@@ -69,3 +69,12 @@ function mySides() {
     x.style.display = "none";
   }
 }
+
+function myDesserts() {
+  var x = document.getElementById("desserts");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
