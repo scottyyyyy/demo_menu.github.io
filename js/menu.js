@@ -60,3 +60,12 @@ function myDrinks() {
     x.style.display = "none";
   }
 }
+
+function mySides() {
+  var x = document.getElementById("sides");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
