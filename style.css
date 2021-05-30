@@ -29,6 +29,13 @@ img {
   height auto; /* default */
 }
 
+.footer-text {
+	font-family: 'Pacifico', cursive;
+	font-size: .5rem;
+	color: green !important;
+	letter-spacing: .1rem;
+}
+
 @media (max-width: 575.98px) {
 	.card-columns {
 		column-count:1;
