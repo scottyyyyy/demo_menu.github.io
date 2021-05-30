@@ -30,10 +30,13 @@ img {
 }
 
 .footer-text {
-	font-family: 'Pacifico', cursive;
-	font-size: 0.5rem;
+	text-align: left;
 	color: green !important;
-	letter-spacing: .1rem;
+}
+
+.footer-number {
+	text-align: right;
+	color: green !important;
 }
 
 @media (max-width: 575.98px) {
